@@ -1,0 +1,7 @@
+/home/mrx/ADDER_TEST/Prefix_ADDER/sim/testbench.sv
+/home/mrx/ADDER_TEST/Prefix_ADDER/src/Carry.v
+/home/mrx/ADDER_TEST/Prefix_ADDER/src/Carry_Gen.sv
+/home/mrx/ADDER_TEST/Prefix_ADDER/src/Op_Dot.sv
+/home/mrx/ADDER_TEST/Prefix_ADDER/src/Prefix_adder.sv
+/home/mrx/ADDER_TEST/Prefix_ADDER/src/kg_tree.sv
+/home/mrx/ADDER_TEST/Prefix_ADDER/src/pg_code.sv

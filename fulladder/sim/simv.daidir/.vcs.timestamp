@@ -1,0 +1,77 @@
+0 
+29
++cli+4
++itf+/usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx/linux64/lib/vcsdp.tab
++memcbk
++v2k
++vcsd
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx/linux64/lib/libvirsim.so /usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx/linux64/lib/liberrorinf.so /usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx/linux64/lib/libsnpsmalloc.so /usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx/include
+-Xcbug=0x1
+-debug=3
+-gen_obj
+-picarchive
+../sim/fulladder_tb.v
+../src/fulladder.v
+/usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx/linux64/bin/vcs1
+33
+XDG_MENU_PREFIX=xfce-
+XDG_DATA_DIRS=/usr/local/share:/usr/share
+XDG_CURRENT_DESKTOP=XFCE
+XDG_CONFIG_DIRS=/etc/xdg
+VTE_VERSION=5202
+VNCDESKTOP=X
+VMR_MODE_FLAG=32
+VC_STATIC_HOME=/usr/synopsys/vc_static-O-2018.09-SP2-2
+VCS_TARGET_ARCH=amd64
+VCS_MX_HOME_INTERNAL=1
+VCS_HOME=/usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx/
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx/linux64
+SYNOPSYS_HOME=/usr/synopsys
+SYNOPSYS=/usr/synopsys/fm-O-2018.06-SP1/
+SSH_AUTH_SOCK=/tmp/ssh-0g046A5UjBpp/agent.1540
+SSH_AGENT_PID=1541
+SESSION_MANAGER=local/lizhen:@/tmp/.ICE-unix/1531,unix/lizhen:/tmp/.ICE-unix/1531
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+OVA_UUM=0
+NVIDIA_VISIBLE_DEVICES=all
+LC_ALL=C
+GLADE_PIXMAP_PATH=:
+GLADE_MODULE_PATH=:
+GLADE_CATALOG_PATH=:
+DESKTOP_SESSION=xfce
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-KCIpJ9Fell,guid=b7a07964b57414777205ee5a66eada18
+COLORTERM=truecolor
+0
+3
+1726671187 ../src/fulladder.v
+1726670353 ../sim/fulladder_tb.v
+1557371742 /usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx/linux64/lib/vcsdp.tab
+4
+1557372957 /usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx/linux64/lib/libvirsim.so
+1557372327 /usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx/linux64/lib/liberrorinf.so
+1557372290 /usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx/linux64/lib/libsnpsmalloc.so
+1557372324 /usr/synopsys/vc_static-O-2018.09-SP2-2/vcs-mx/linux64/lib/libvfs.so
+1726671239 simv.daidir
+-1 partitionlib

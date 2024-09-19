@@ -1,0 +1,9 @@
+#!/bin/sh -h 
+PYTHONHOME=/home/mrx/EDA/Synopsys/vcs/O-2018.09-SP2/etc/search/pyh
+export PYTHONHOME
+PYTHONPATH=/home/mrx/EDA/Synopsys/vcs/O-2018.09-SP2/linux64/lib/pylib27
+export PYTHONPATH
+LD_LIBRARY_PATH=/home/mrx/EDA/Synopsys/vcs/O-2018.09-SP2/linux64/lib:/home/mrx/EDA/Synopsys/vcs/O-2018.09-SP2/linux64/lib/pylib27
+export LD_LIBRARY_PATH
+/home/mrx/EDA/Synopsys/vcs/O-2018.09-SP2/linux64/bin/vcsfind_create_index.exe  -z  "/home/mrx/ADDER_TEST/Prefix_ADDER/sim/simv.daidir/debug_dump/fsearch/./idents_QotNA5.xml.gz" "/home/mrx/ADDER_TEST/Prefix_ADDER/sim/simv.daidir/debug_dump/fsearch/./idents_tapi.xml.gz" -o "/home/mrx/ADDER_TEST/Prefix_ADDER/sim/simv.daidir/debug_dump/fsearch/fsearch.db_tmp"
+\mv "/home/mrx/ADDER_TEST/Prefix_ADDER/sim/simv.daidir/debug_dump/fsearch/fsearch.db_tmp" "/home/mrx/ADDER_TEST/Prefix_ADDER/sim/simv.daidir/debug_dump/fsearch/fsearch.db"

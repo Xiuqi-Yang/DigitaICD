@@ -1,0 +1,102 @@
+0 
+38
++itf+/home/mrx/EDA/Synopsys/vcs/O-2018.09-SP2/linux64/lib/vcsdp_lite.tab
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/home/mrx/EDA/Synopsys/vcs/O-2018.09-SP2/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -Wl,--no-as-need -rdynamic
+-Mobjects= /home/mrx/EDA/Synopsys/vcs/O-2018.09-SP2/linux64/lib/libvirsim.so /home/mrx/EDA/Synopsys/vcs/O-2018.09-SP2/linux64/lib/liberrorinf.so /home/mrx/EDA/Synopsys/vcs/O-2018.09-SP2/linux64/lib/libsnpsmalloc.so /home/mrx/EDA/Synopsys/vcs/O-2018.09-SP2/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/home/mrx/EDA/Synopsys/vcs/O-2018.09-SP2/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/home/mrx/EDA/Synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/mrx/EDA/Synopsys/vcs/O-2018.09-SP2/include
+-P
+-debug_acc+all
+-fsdb
+-full64
+-gen_obj
+-l
+-picarchive
+-sverilog
+-timescale=1ns/1ps
+../sim/testbench.sv
+../src/Carry.v
+../src/Carry_Gen.sv
+../src/Op_Dot.sv
+../src/Prefix_adder.sv
+../src/kg_tree.sv
+../src/pg_code.sv
+/home/mrx/EDA/Synopsys/vcs/O-2018.09-SP2/linux64/bin/vcs1
+/home/mrx/EDA/Synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/verdi.tab
+com.log
+43
+sysc_uni_pwd=/home/mrx/ADDER_TEST/Prefix_ADDER/sim
+ZSH=/home/mrx/.oh-my-zsh
+XDG_RUNTIME_DIR=/run/user/1000/
+WT_SESSION=f5c9cd6b-98fa-42d5-b2d4-8f79754fbfda
+WT_PROFILE_ID={1fddabe4-fea2-46ab-a097-bbf22cd4faad}
+WSL_INTEROP=/run/WSL/344881_interop
+WSL_DISTRO_NAME=Ubuntu-22.04
+WSLENV=WT_SESSION:WT_PROFILE_ID:
+WSL2_GUI_APPS_ENABLED=1
+WAYLAND_DISPLAY=wayland-0
+VMR_MODE_FLAG=64
+VERDI_HOME=/home/mrx/EDA/Synopsys/verdi/Verdi_O-2018.09-SP2
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=com.log
+VCS_HOME=/home/mrx/EDA/Synopsys/vcs/O-2018.09-SP2
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/home/mrx/EDA/Synopsys/vcs/O-2018.09-SP2/linux64
+SNPS_VCS_INTERNAL_UBUNTU_PRE_LDFLAGS= -no-pie 
+SIM_TRI=/home/mrx/tri/Triangle_New_1/sim
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+PULSE_SERVER=unix:/mnt/wslg/PulseServer
+OVA_UUM=0
+NEMU_HOME=/home/mrx/ysyx-workbench/nemu
+NAME=mrx
+MFLAGS=
+MAKE_TERMOUT=/dev/pts/13
+MAKE_TERMERR=/dev/pts/13
+MAKELEVEL=1
+MAKEFLAGS=
+LSCOLORS=Gxfxcxdxbxegedabagacad
+LESS=-R
+LC_ALL=C
+HOSTTYPE=x86_64
+DVT_LICENSE_FILE=/home/mrx/EDA/DVT_install/license/dvt_JuntaoXia_Academic_20240902_FlexLMLocal.license
+DVT_HOME=/home/mrx/EDA/DVT_install/dvt_eclipse
+DVE_HOME=/home/mrx/EDA/Synopsys/vcs/O-2018.09-SP2
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+AM_HOME=/home/mrx/ysyx-workbench/abstract-machine
+0
+9
+1725622547 ../sim/testbench.sv
+1725617877 ../src/Carry.v
+1725613965 ../src/pg_code.sv
+1725614445 ../src/kg_tree.sv
+1725613965 ../src/Prefix_adder.sv
+1725613965 ../src/Op_Dot.sv
+1725613965 ../src/Carry_Gen.sv
+1550753332 /home/mrx/EDA/Synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/verdi.tab
+1551421246 /home/mrx/EDA/Synopsys/vcs/O-2018.09-SP2/linux64/lib/vcsdp_lite.tab
+4
+1551422344 /home/mrx/EDA/Synopsys/vcs/O-2018.09-SP2/linux64/lib/libvirsim.so
+1551421792 /home/mrx/EDA/Synopsys/vcs/O-2018.09-SP2/linux64/lib/liberrorinf.so
+1551421768 /home/mrx/EDA/Synopsys/vcs/O-2018.09-SP2/linux64/lib/libsnpsmalloc.so
+1551421789 /home/mrx/EDA/Synopsys/vcs/O-2018.09-SP2/linux64/lib/libvfs.so
+1725622840 simv.daidir
+-1 partitionlib

@@ -1,0 +1,5 @@
+    initial begin
+        $fsdbDumpfile("testbench.fsdb");
+        $fsdbDumpMDA();
+        $fsdbDumpvars();
+    end

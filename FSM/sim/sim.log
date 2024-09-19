@@ -1,0 +1,10 @@
+Command: /mnt/DigitalICD/FSM/sim/./simv -l sim.log
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2-2_Full64; Runtime version O-2018.09-SP2-2_Full64;  Sep 19 10:09 2024
+$finish called from file "./StateMachine_tb.v", line 66.
+$finish at simulation time               550000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 550000 ps
+CPU Time:      0.130 seconds;       Data structure size:   0.0Mb
+Thu Sep 19 10:09:49 2024

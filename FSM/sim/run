@@ -1,0 +1,22 @@
+//Go to your directory "faridahay13/dig/module3/behavioural"
+
+//source the licence
+
+//run  verilog
+
+
+
+
+
+vcs -debug +v2k \
+        -sverilog\
+        ./FullAdder_tb.sv \
+        ../src/FullAdder.v \
+           	
+./simv -gui
+
+
+
+
+
+
