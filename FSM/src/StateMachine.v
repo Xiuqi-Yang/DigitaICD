@@ -4,7 +4,6 @@ module StateMachine(
     output  S,COUT
 );
 
-
     parameter S0 = 2'd0;
     parameter S1 = 2'd1;
     parameter S2 = 2'd2;
