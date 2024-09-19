@@ -1,3 +1,4 @@
+`define REG_OUTPUT
 module StateMachine(
     input CLK,NRST,rst,start,
     input CIN,A,B,
@@ -8,10 +9,6 @@ module StateMachine(
     parameter S1 = 2'd1;
     parameter S2 = 2'd2;
     parameter S3 = 2'd3;
-
-
-`define REG_OUTPUT
-
 
 `ifdef REG_OUTPUT
     reg S_inter,COUT_inter,S_inter_REG,COUT_inter_REG;
@@ -44,15 +41,15 @@ module StateMachine(
         end
         S1:begin
             NS = rst ? S0:S2;
-            {S_inter,COUT_inter} <={SUM,1'b0};
+            {S_inter,COUT_inter} <= {SUM,1'b0};
         end
         S2: begin
             NS = rst ? S0:S3;
-            {S_inter,COUT_inter} <={1'b0,CO};
+            {S_inter,COUT_inter} <= {1'b0,CO};
         end
         S3: begin
             NS = rst ? S0:S1;
-            {S_inter,COUT_inter} <={SUM,CO};
+            {S_inter,COUT_inter} <= {SUM,CO};
         end
         endcase
     end

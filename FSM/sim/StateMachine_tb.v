@@ -10,7 +10,7 @@ reg start;
 wire S;
 wire COUT;
 
-parameter N = 11;//Number of sequeial generated
+parameter N = 1000;//Number of sequeial generated
 parameter CLK_T = 50;
 parameter DELAY = 50;
 
@@ -55,12 +55,15 @@ initial
     A=0;
     B=0;
     NRST=0;
+    #(DELAY);
     $fdisplay(Inputstream,"No\tB\tA\tCIN\tS\tCOUT");   
     for(i=0;i<N;i=i+1)
       begin
+	  #5
         {B,A,CIN,start,rst,NRST}=REG_DATA[i];        
         $fdisplay(Inputstream,"%d\t%d\t%d\t%d\t%d\t%d", i, CIN, A, B, S, COUT);
-        #(DELAY);
+        #(2*DELAY-5);
+        //#(2*DELAY);
       end
       $fclose(Inputstream);
       $finish;
