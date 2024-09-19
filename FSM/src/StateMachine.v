@@ -9,7 +9,9 @@ module StateMachine(
     parameter S2 = 2'd2;
     parameter S3 = 2'd3;
 
+
 `define REG_OUTPUT
+
 
 `ifdef REG_OUTPUT
     reg S_inter,COUT_inter,S_inter_REG,COUT_inter_REG;
