@@ -10,7 +10,7 @@
 docker run -itd --gpus all --name CONTAINER-NAME --restart unless-stopped -e USER=root -v /local/directorty:/workspace -v /dev/shm:/dev/shm -p 5901:5901 [dockername]
 ```
 ```
-docker run -itd --gpus all --name eda --restart unless-stopped -e USER=root -v C:\Users\yangxiuqi\Digital_ICD:/mnt/Digital_ICD/ -v /dev/shm:/dev/shm -p 5901:5901 phyzli/ubuntu18.04_xfce4_vnc4server_synopsys
+docker run -itd --gpus all --hostname lizhen --mac-address 02:42:ac:11:00:02 --name eda --restart unless-stopped -e USER=root -v C:\Users\yangxiuqi\Digital_ICD:/mnt/Digital_ICD/ -v /dev/shm:/dev/shm -p 5901:5901 phyzli/ubuntu18.04_xfce4_vnc4server_synopsys
 ```
 命令中的名字、目录等替换成自己的，-e USER=root、-v /dev/shm:/dev/shm、-p xxxx:5901不要改，-e USER=root是后续容器中启动vncserver所需的环境变量，5901端口是vncserver启动时默认使用的端口，-v /dev/shm:/dev/shm保证容器的内存不会不够。
 
