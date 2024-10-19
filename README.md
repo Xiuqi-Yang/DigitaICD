@@ -102,3 +102,5 @@ vncserver -geometry 1920x1080 :1
 ```
 
 最后跑完建议在终端里把display1删掉，不然下次有可能不能直接生成这个display number，因为和上次生成的一些文件有冲突了。要去/tmp里删掉一些东西。
+
+nb
