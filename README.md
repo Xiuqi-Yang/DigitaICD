@@ -104,3 +104,21 @@ vncserver -geometry 1920x1080 :1
 最后跑完建议在终端里把display1删掉，不然下次有可能不能直接生成这个display number，因为和上次生成的一些文件有冲突了。要去/tmp里删掉一些东西。
 
 nb
+### 补充一个如何创建远程git库的方法
+第一步就是在github上手动创建仓库，然后命名
+然后是在本地创建一个同名的git仓库，并且初始化
+```
+git init -b main  (git初始化之后是默认是master分支，直接在创建的时候就变成main，和github上对应)
+```
+如果之前有初始化的话，可以把.git 配置删了
+```
+rm -rf .git
+```
+链接本地仓库和远程仓库
+```
+git remote add origin https://github.com/Xiuqi-Yang/Cadence.git
+```
+然后就是三部曲
+```
+git add .   git commit -m "first commit"  git push origin main
+```
